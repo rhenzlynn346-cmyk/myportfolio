@@ -120,3 +120,24 @@ footer{
     text-align: center;
     padding: 20px;
 }
+/*for midea  */
+
+@media screen and (max-width: 600px) {
+    /* 1. Stack the Navigation & List items */
+    nav a, ul {
+        display: block;
+        text-align: center;
+        margin: 10px 0;
+    }
+
+    /* 2. Shrink the Image */
+    img {
+        width: 150px;
+        height: auto;
+    }
+
+    /* 3. Make containers fluid */
+    .project, form {
+        width: 90%;
+    }
+}
